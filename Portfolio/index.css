@@ -1,0 +1,48 @@
+body {
+    background-image: url(img/back.jpg);
+    position: absolute;
+    font-family: 'Anek Malayalam', sans-serif;
+    background-size: 100%;
+}
+
+
+.left {
+    color: azure;
+    background-color: rgb(41, 41, 49);
+    font-size: 24px;
+    padding: 10px;
+    width: 370px;
+
+
+}
+
+
+.right {
+    background-color: rgb(231, 247, 255);
+    margin-left: 0%;
+    padding: 100px 90px;
+    width: 700px;
+
+}
+
+
+.main {
+
+    display: flex;
+    flex-direction: row-reverse;
+    margin: auto;
+    margin-left: 420px;
+
+
+}
+
+.ts-list {
+    color: darkgoldenrod;
+
+
+}
+
+.ts-item-text {
+    color: white;
+    font-style: normal
+}
