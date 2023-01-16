@@ -3,6 +3,8 @@ body {
     position: absolute;
     font-family: 'Anek Malayalam', sans-serif;
     background-size: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
 }
 
 
@@ -45,4 +47,14 @@ body {
 .ts-item-text {
     color: white;
     font-style: normal
+}
+.my-photo{
+    width: 100%;
+    
+}
+
+.pos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
